@@ -5,10 +5,10 @@ int main()
     int i = 10;
     
     if (i > 1 && (i & (i - 1)) == 0){
-        printf("是\n");
+        printf("true\n");
     }
     else{
-        printf("否\n");
+        printf("false\n");
     }
     return 0;
 }
